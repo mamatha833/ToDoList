@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>To-Do List App - README</title>
-</head>
-<body>
+
     <h1>To-Do List App</h1>
 
     <p>A simple and interactive To-Do List app built with HTML, CSS, and JavaScript. The app allows users to add tasks, mark them as complete, and delete them. Newly added tasks are displayed at the top of the list, providing an easy-to-use interface for task management.</p>
@@ -63,5 +55,4 @@
 
     <h2>License:</h2>
     <p>This project is open-source and available under the <a href="LICENSE" target="_blank">MIT License</a>.</p>
-</body>
-</html>
+
