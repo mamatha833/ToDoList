@@ -1,0 +1,126 @@
+body{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:#F7F6F2;
+      
+}
+
+#container{
+    padding:20px;
+    background-color:#F7F6F2;
+    border-radius: 5px;
+    height: 50%;
+    width: 500px;
+    overflow: scroll;
+    scrollbar-width: none;
+    color: #333333;
+    
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Georgia', serif;
+    color: #333; 
+}
+
+#taskInput,#addButton{
+
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+       
+}
+#taskInput{
+
+ width: 68%;
+ margin-left:2%;
+    
+}
+
+#addButton{
+
+    background-color:#4CAF50;
+    font-weight: bold;
+    margin-left:5%;
+    color: #FFFFFF;
+ 
+}
+
+#addButton:hover{
+    background-color: #45A049;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding:10px;
+  
+}
+ul li{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2%;  
+    background-color: #FFFFFF; 
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.listButtons{
+
+      width: 30%; 
+      margin:2px;
+      border: none;
+}
+#task{
+
+    overflow: scroll;
+    scrollbar-width: none;
+    font-size: 18px;
+
+}
+
+#task::-webkit-scrollbar {
+    display: none;
+}
+
+#completeButton,#deleteButton{
+
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    color: #FFFFFF;
+  
+}
+
+#completeButton{
+
+    background-color:#2196F3 ;
+}
+#completeButton:hover
+{
+    background-color:#0B7DD6
+}
+#deleteButton{
+    background-color: #F44336;
+}
+#deleteButton:hover{
+
+    background-color: #D32F2F;
+}
+
+
+
+
+
