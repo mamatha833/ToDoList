@@ -14,4 +14,8 @@
 <li><b>JavaScript: </b>Used for handling the logic such as adding, completing, and deleting tasks, as well as showing dynamic alerts.</li>
 
 
+![Screenshot 2024-12-04 155552](https://github.com/user-attachments/assets/29c0aad1-36e0-4f35-b46c-5ba8eaf1ec91)
+
+
+
 
